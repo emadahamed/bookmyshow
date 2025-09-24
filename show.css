@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+.serchicon{
+    position: absolute;
+    left: 245px;
+
+}.firstinput{
+    padding-left: 30px;
+}
+
+.left{
+    /* width: 600px;
+    height: 50px;
+    border: 1px solid black; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 80px;
+    
+
+}
+
+input{
+    width: calc(100% - 17px);
+    cursor: text;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    padding-left: 400px;
+    gap: 20px;
+    
+}
+
+select{
+    width: 70px;
+
+}
+
+input{
+    width: 60px;
+
+}
+
+.listleft{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.listright{
+    display: flex;
+    gap: 30px;
+    padding-left: 560px;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+h2{
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.see{
+    display: flex;
+    justify-content: end;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding-right: 130px;
+    text-decoration: none;
+    color: red;
+}
+
+.movielist{
+    display: flex;   
+    gap: 30px;
+    padding-left: 140px;
+    
+}
+
+h3{
+    padding: 5px;
+}
+
+.add2{
+    width: 82%;
+    margin-left: 139px;
+    margin-top: 80px;
+  }
+
+.live{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex ;
+    align-items: center;
+    gap: 30px;
+    padding-left: 140px;
+    
+    
+}
+
+.prime{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+     background-color: #2C3047;
+   
+}
+
+.prime h4{
+    padding-left: 140px;
+    color: white;
+}
+.prime h2{
+    padding-left: 140px;
+    color: white;
+}
+.play{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 30px;
+    padding-left: 140px;
+    /* border: 1px solid black; */
+    background-color: #2C3047;
+    color: white;
+}.play h4{
+    padding-left: 5px;
+}
+
+.music{
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    padding-left: 140px;
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+    
+}
+
+.about{
+    width: 100%;
+    height:82px;
+    /* border: 1px solid black; */
+     background-color:rgb(51, 51, 56);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: white;
+   
+
+}
+.box{
+    width: 130px;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(236, 94, 113);
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.icons{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 153, 153);
+    display: flex;
+    
+    
+}
+.basic{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: rgb(51, 51, 56);
+
+}
+.about ul li{
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: small;
+    color: rgb(165, 165, 165);
+}
+
+.icons a{
+    text-decoration: none;
+    /* display: flex; */
+}
+
+
+
+
